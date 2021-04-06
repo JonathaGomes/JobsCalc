@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src=".github/preview.png" width="100%">
+  <img alt="JobsCalc" src="https://i.ibb.co/f04Gjb1/preview-copy.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
