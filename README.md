@@ -5,11 +5,7 @@
 <br>
 
 <p align="center">
-<<<<<<< HEAD
-  <img alt="JobsCalc" src=".github/preview.png" width="100%">
-=======
   <img alt="JobsCalc" src="https://i.ibb.co/f04Gjb1/preview-copy.png" width="100%">
->>>>>>> 72c6581fd61ba533aa5fabee4a9b9d0eea5bae94
 </p>
 
 ## 🚀 Tecnologias
