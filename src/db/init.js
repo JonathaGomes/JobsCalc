@@ -37,13 +37,13 @@ const initDb = {
         vacation_per_year,
         value_hour
       ) VALUES (
-        "Jonatha",
-        "https://avatars.githubusercontent.com/u/58338004?v=4",
-        3000,
-        5,
-        5,
-        4,
-        70
+        "Example Name",
+        "https://i1.wp.com/terracoeconomico.com.br/wp-content/uploads/2019/01/default-user-image.png?ssl=1",
+        1,
+        1,
+        1,
+        1,
+        1
       );
     `);
 
@@ -54,23 +54,9 @@ const initDb = {
         total_hours,
         created_at
       ) VALUES (
-        "Verlene Bolos",
-        4,
-        3,
-        1618155817584
-      );
-    `);
-
-    await db.run(`
-      INSERT INTO jobs (
-        name,
-        daily_hours,
-        total_hours,
-        created_at
-      ) VALUES (
-        "Frango do Chefe",
-        4,
-        20,
+        "Example Job",
+        1,
+        1,
         1618155817584
       );
     `);

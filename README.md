@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="JobsCalc" src="https://i.ibb.co/nf9TkHw/Captura-de-tela-de-2021-04-10-19-01-37.png" width="100%">
+  <img alt="JobsCalc" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -18,6 +18,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - NodeJS
 - EJS
 - Express
+
+## 🔥️ Minhas Alterações
+
+Alterações que eu adicionei que não foram repassadas nas aulas:
+
+- Validação de formulários
 
 ## 💻 Projeto
 
