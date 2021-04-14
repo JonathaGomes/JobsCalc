@@ -53,17 +53,22 @@
           <div class="info">
             <div class="total">
               <strong><%= statusCount.total %> </strong>
-              Projetos ao total
+              <span>Projetos ao total</span>
             </div>
             <div class="in-progress">
               <strong><%= statusCount.progress %> </strong>
-              Em andamento
+              <span>Em andamento</span>
             </div>
             <div class="finished">
               <strong><%= statusCount.done %> </strong>
-              Encerrados
+              <span>Encerrados</span>
             </div>
           </div>
+          <ul class="list-filter">
+            <li class="list active" data-filter="all">Todos</li>
+            <li class="list" data-filter="progress">Em andamento</li>
+            <li class="list" data-filter="done">Encerrados</li>
+          </ul>
           <a class="button orange" href="job">
             <span>
               <img src="/images/plus-24.svg" alt="Novo Job" /> 
@@ -149,5 +154,7 @@
         id="delete-job"></form>
     </div>
     <!-- end modal-wrapper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="scripts/filter.js"></script>
   </body>
 </html>
