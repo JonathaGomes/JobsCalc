@@ -25,6 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Alterações que eu adicionei que não foram repassadas nas aulas:
 
 - Validação de formulários
+- Filtros de jobs
 
 ## 💻 Projeto
 
