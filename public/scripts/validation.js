@@ -7,9 +7,9 @@ form.addEventListener("submit", (event) => {
     if (stop) {
       return;
     }
-    if (!input.value) {
+    if (!input.value || input.value <= 0) {
       event.preventDefault();
-      alert("[ERRO] Preencha todos os dados!");
+      alert("[ERRO] Preencha os dados corretamente!");
       stop = true;
     }
   });
